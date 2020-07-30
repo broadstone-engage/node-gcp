@@ -7,7 +7,7 @@ RUN apt-get clean && apt-get update
 RUN apt-get install -y git wget gnupg
 
 # Install NodeJS
-cl
+
 RUN apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install -y nodejs

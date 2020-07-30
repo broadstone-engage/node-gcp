@@ -1,2 +1,2 @@
 # node-gcp
-NodeJS, GCP
+Docker image used for Gitlab CI. NodeJS, GCloud
